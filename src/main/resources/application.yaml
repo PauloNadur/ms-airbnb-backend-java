@@ -1,0 +1,14 @@
+# Apache Tomcat - Server Port
+server:
+  port: 8080
+
+# Spring Framework - Application, DataSource & JPA
+spring:
+  application:
+    name: ms-airbnb-backend-java
+  datasource:
+    url: jdbc:mysql://db4free.net/pmcpowerbitest01
+    username: pmcpowerbitest01
+    password: password # Insira a senha aqui
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

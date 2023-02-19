@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "d4a8347a-943b-45b6-8155-5014184f1dc7",
+		"name": "MS Airbnb Backend Java",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15828802"
+	},
+	"item": [
+		{
+			"name": "Get All Airbnb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/api/v1/airbnb",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"airbnb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Dashboard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/api/v1/airbnb/dashboard",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"airbnb",
+						"dashboard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
